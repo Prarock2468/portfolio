@@ -1,0 +1,140 @@
+.text_color {
+  font-size: 17px;
+  line-height: 30px;
+  color: var(--textOp);
+}
+.nameDetailWrapp {
+  display: flex;
+  gap: 40px;
+  h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    color: var(--text);
+    text-transform: capitalize;
+  }
+  .font25 {
+    font-size: 13px;
+    line-height: 25px;
+  }
+}
+
+.title {
+  color: var(--text);
+  font-size: 25px;
+  font-weight: 600;
+}
+.Rcontainer,
+.resumeContent {
+  position: relative;
+  width: 100%;
+}
+
+.socalName {
+  span {
+    font-size: 13px !important;
+    line-height: 25px;
+  }
+}
+
+// skills
+.skillList,
+.companyHeader {
+  backdrop-filter: blur(63px);
+  background-image: radial-gradient(
+    146.13% 118.42% at 50% -15.5%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  padding: 1px;
+}
+.skillListIn,
+.companyHeaderIn {
+  background: #0f1115;
+  box-shadow: rgba(255, 255, 255, 0.06) 0px 0.362176px 0.507046px -0.75px inset,
+    rgba(255, 255, 255, 0);
+}
+.SkillsName {
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--textOp);
+  font-weight: 600;
+}
+.companyHeaderIn,
+.companyHeader {
+  border-radius: 8px;
+}
+.exp {
+  font-size: 16px;
+  color: var(--text);
+  line-height: 25px;
+  font-weight: 600;
+}
+.duration {
+  font-size: 13px;
+  color: var(--textOp);
+  font-weight: 600;
+}
+.text_edu {
+  font-size: 13px;
+  line-height: 25px;
+  display: flex;
+  gap: 5px;
+  strong {
+    color: var(--textOp);
+    display: inline-block;
+    width: 80px;
+  }
+}
+.yearExp {
+  font-size: 10px;
+  color: var(--textOp);
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.companyName {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--textOp);
+  font-weight: 600;
+}
+.leftBox {
+  width: 160px;
+}
+.rightBox {
+  width: calc(100% - 250px);
+}
+.divi {
+  left: 155px;
+  width: 2px;
+  height: calc(100% - 35px);
+  top: 20px;
+  border-radius: 4px;
+  background: var(--textOp);
+}
+.dots {
+  position: relative;
+  color: var(--text);
+}
+
+.dots::after {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: #949494;
+  right: 1px;
+  z-index: 2;
+  box-shadow: inset 0px 0px 6px #949494, 0px 0px 10px #9b9b9d;
+}
+.text {
+  line-height: 20px;
+}
+.edutitle {
+  font-size: 25px;
+  margin-bottom: 15px;
+  line-height: 25px;
+}

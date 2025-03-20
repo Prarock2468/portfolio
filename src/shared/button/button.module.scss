@@ -1,0 +1,44 @@
+.bgbtn {
+  padding: 1px;
+  background: linear-gradient(90deg, #fff801 0%, #ff8c01 100%);
+  cursor: pointer;
+  .bgbtndiv {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.customeBtn {
+  padding: 1px;
+  border-radius: 50px;
+  overflow: hidden;
+  max-width: max-content;
+  display: inline-block;
+}
+.bgbtndiv {
+  background-color: #000;
+  border-radius: 50px;
+}
+.bgbtndivP {
+  padding: 8px 12px;
+  background-image: url("../../../public/img/dot.png"),
+    linear-gradient(
+      90deg,
+      rgba(255, 215, 154, 0.24) 0.01%,
+      rgba(255, 173, 47, 0.24) 50.01%,
+      rgba(255, 154, 0, 0.24) 100%
+    );
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.btnchild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  svg {
+    fill: #ff9a00;
+  }
+}

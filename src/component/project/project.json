@@ -1,0 +1,117 @@
+[
+    {
+      "projectId": "P001",
+      "projectName": "Fintech Website",
+      "liveUrl":"https://referloan.in/",
+      "startDate": "2023-01-15",
+      "endDate": "2023-05-10",
+      "thumbnail": "referloan.png",
+      "banner": "referloan.png",
+      "skills": ["html", "css", "JS", "jQuery", "React", "NextJs", "PSD to html", "Bootstrap", "Tailwind", "Material UI", "Framer Motion"],
+      "challenges": [
+        "Integrating complex payment gateway while ensuring responsive UI.",
+        "Optimizing product page load time without compromising design quality.",
+        "Implementing advanced search filters using React and Material UI.",
+        "Converting intricate Figma designs to functional React components.",
+        "Ensuring mobile-first design across various device screen sizes."
+      ],
+      "description": "This project involved redesigning an e-commerce website using modern UI technologies. The project started by converting PSD and Figma designs to HTML using Bootstrap and Tailwind CSS for responsiveness. React and Next.js were used for dynamic interactions and efficient routing. Material UI and Framer Motion enhanced the overall design flow, allowing for smooth animations and interactive elements. The workflow included developing product pages, filtering systems, and optimizing for fast load times. We ensured SEO-friendly practices with semantic HTML and WCAG compliance for accessibility. This project allowed the team to integrate advanced search features, secure payment methods, and user-friendly navigation, enhancing the overall user experience and conversion rates.",
+      "projectRequirement": "Responsive e-commerce site with secure payment integration, product filtering, and optimized performance."
+    },
+    {
+      "projectId": "P002",
+      "projectName": "Us Job Consultant",
+      "liveUrl":"https://himflax.com/",
+      "startDate": "2022-08-01",
+      "endDate": "2022-12-15",
+      "thumbnail": "himflax.png",
+      "banner": "realestate_banner.jpg",
+      "skills": ["html", "css", "JS", "jQuery", "React", "NextJs", "Figma to Html", "Bootstrap", "Tailwind", "Material UI", "Framer Motion"],
+      "challenges": [
+        "Implementing advanced property search with multiple filters.",
+        "Optimizing large image galleries for high-resolution property images.",
+        "Ensuring cross-browser compatibility with complex CSS animations.",
+        "Maintaining accessibility standards while designing interactive maps.",
+        "Handling dynamic form elements for user inquiries with minimal lag."
+      ],
+      "description": "The Real Estate Portal project required building a user-friendly interface where users could search and browse properties. The design phase began with converting Figma designs into responsive HTML layouts using Bootstrap and Tailwind. React and Next.js were used to implement dynamic functionalities such as property searches and filtering by location, price, and amenities. Material UI and Framer Motion allowed for sleek card designs and smooth transitions. The project also emphasized performance optimization, ensuring that high-resolution property images loaded efficiently. SEO strategies were implemented to improve search engine rankings, and accessibility standards were maintained to provide an inclusive browsing experience for all users.",
+      "projectRequirement": "An intuitive real estate platform with advanced search, image optimization, and accessible design."
+    },
+    {
+      "projectId": "P003",
+      "projectName": "Job Protal and Consulting",
+      "liveUrl":"https://wizehire.com/",
+      "startDate": "2021-06-01",
+      "endDate": "2021-10-30",
+      "thumbnail": "wizehire.png",
+      "banner": "healthcare_dashboard_banner.jpg",
+      "skills": ["html", "css", "JS", "React", "NextJs", "Bootstrap", "Material UI"],
+      "challenges": [
+        "Designing an intuitive dashboard for doctors with a focus on accessibility.",
+        "Ensuring real-time updates for patient data without page reloads.",
+        "Handling multiple role-based interfaces with reusable components.",
+        "Implementing dark mode toggle across the entire UI.",
+        "Maintaining HIPAA compliance while designing the UI for sensitive data."
+      ],
+      "description": "This project involved developing a comprehensive healthcare management dashboard using React and Next.js. The focus was on designing a clean, user-friendly interface where doctors could manage patient data efficiently. Bootstrap and Material UI were used to create responsive grid layouts and consistent design patterns. Real-time data updates were implemented using React's state management features. Additionally, the UI was designed to support both light and dark modes, enhancing user accessibility in different lighting conditions. The project also required HIPAA compliance, meaning careful consideration was given to how sensitive data was displayed and managed on the interface.",
+      "projectRequirement": "A real-time healthcare management system with role-based UI, accessibility options, and secure data handling."
+    },
+    {
+      "projectId": "P004",
+      "projectName": "Franchiese log in page",
+      "liveUrl":"https://partners.referloan.in/",
+      "startDate": "2020-11-01",
+      "endDate": "2021-03-15",
+      "thumbnail": "partnerpage.png",
+      "banner": "learning_platform_banner.jpg",
+      "skills": ["html", "css", "JS", "React", "NextJs", "Tailwind", "Material UI", "Framer Motion"],
+      "challenges": [
+        "Creating a seamless navigation system for course categories and lessons.",
+        "Implementing video streaming without compromising page load times.",
+        "Designing a responsive UI for both desktop and mobile learning experiences.",
+        "Incorporating progress tracking features in an intuitive dashboard.",
+        "Handling user authentication and profile management in the UI."
+      ],
+      "description": "The Online Learning Platform was developed to offer an engaging learning experience for users. The project required designing a clean and interactive UI using React and Next.js. Tailwind CSS was employed to create responsive and mobile-first designs, ensuring accessibility across different devices. Material UI and Framer Motion were used to enhance the user interface with animations and progress indicators. The platform also featured video streaming, course progress tracking, and user authentication. With a focus on user experience, the interface allowed learners to easily navigate through courses, track progress, and manage their profiles. The project ensured that both students and instructors had tailored dashboards with specific functionality.",
+      "projectRequirement": "A responsive online learning platform with video streaming, progress tracking, and user management."
+    },
+    {
+      "projectId": "P005",
+      "projectName": "Attorneys, Lawyers, Law Firms",
+      "liveUrl":"https://acer.ng/",
+      "startDate": "2023-04-01",
+      "endDate": "2023-08-20",
+      "thumbnail": "acer.png",
+      "banner": "financial_dashboard_banner.jpg",
+      "skills": ["html", "css", "JS", "React", "NextJs", "Bootstrap", "Tailwind", "Material UI", "Framer Motion"],
+      "challenges": [
+        "Visualizing complex financial data in an easy-to-understand UI.",
+        "Implementing data filters and dynamic graphs with real-time updates.",
+        "Ensuring that performance remains optimal with large data sets.",
+        "Creating a dashboard that adapts seamlessly to mobile and tablet devices.",
+        "Maintaining high security standards for financial data display."
+      ],
+      "description": "This Financial Dashboard Application was built to allow users to visualize their financial data and manage their portfolios. The interface was designed using React and Next.js for real-time data handling and efficient routing. Bootstrap and Tailwind CSS were used to create responsive layouts. Material UI was employed for designing components such as tables, cards, and modals. Framer Motion was incorporated to animate data graphs and transitions. The project required creating an intuitive user experience where users could apply filters, visualize data trends, and make informed financial decisions based on real-time updates. Data security was a major focus to ensure sensitive information was protected while delivering a smooth user experience.",
+      "projectRequirement": "A secure financial dashboard with real-time data visualization, responsive design, and dynamic filtering."
+    },
+    {
+      "projectId": "P006",
+      "projectName": "Global Operational Hubs",
+      "liveUrl":"https://www.asyad.om/",
+      "startDate": "2022-03-01",
+      "endDate": "2022-07-15",
+      "thumbnail": "asyad.png",
+      "banner": "food_delivery_banner.jpg",
+      "skills": ["html", "css", "JS", "React", "NextJs", "Tailwind", "Material UI", "Framer Motion"],
+      "challenges": [
+        "Designing a clean and interactive menu browsing experience.",
+        "Implementing real-time order tracking on the dashboard.",
+        "Optimizing the app for performance on low-end mobile devices.",
+        "Ensuring seamless integration of third-party APIs for payment and delivery.",
+        "Maintaining brand consistency throughout various screens and interactions."
+      ],
+      "description": "The Food Delivery App project focused on creating a seamless user experience for ordering food online. The design was crafted using Tailwind CSS to ensure responsive layouts, while React and Next.js provided dynamic functionality such as real-time order updates and menu browsing. Material UI components were used for buttons, modals, and navigation elements. Framer Motion added animation to the order tracking dashboard, making the user experience smooth and engaging. The app was optimized for performance on a range of devices, ensuring low-end mobile devices performed well. Additionally, the UI integrated third-party APIs for payment processing and delivery services, ensuring users had a complete and intuitive experience.",
+      "projectRequirement": "A responsive food delivery application with real-time order tracking, API integration, and optimized performance."
+    }
+  ]
+  

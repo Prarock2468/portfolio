@@ -1,0 +1,63 @@
+.footer {
+  padding: 20px 0;
+  backdrop-filter: blur(63px);
+  background-image: radial-gradient(
+    146.13% 118.42% at 50% -15.5%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+}
+.FooterLink {
+  color: var(--textOp);
+  font-size: 14px;
+  line-height: 14px;
+  position: relative;
+  transition: 0.3s all;
+  /* Initial state of ::after */
+  &::after {
+    content: "";
+    height: 1px;
+    border-radius: 4px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+
+    right: 0;
+    left: auto;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+  }
+
+  /* Hover state */
+  &:hover {
+    color: #fff;
+
+    /* After hover effect */
+    &::after {
+      width: 100%;
+      left: 0;
+      right: auto;
+    }
+  }
+}
+.uldevider {
+  background: var(--textOp);
+  width: 2px;
+  height: 100%;
+}
+
+.design {
+  color: var(--textOp);
+  font-size: 14px;
+  line-height: 14px;
+  strong {
+    margin: 0 5px;
+    display: inline-block;
+  }
+}
+.copytext {
+  gap: 4px;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 0;
+}

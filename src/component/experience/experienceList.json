@@ -1,0 +1,44 @@
+{
+  "experience": [
+    {
+      "id": 5,
+      "companyName": "Ith Technology",
+      "dateOfJoining": "22/july/2024",
+      "dateOfResign": "Working",
+      "profile": "Frontend Developer",
+      "jobType": "Full Time",
+      "years": 0.7,
+      "companyUrl": "https://ith.tech/"
+    },
+    {
+      "id": 4,
+      "companyName": "referloan PVT LTD",
+      "dateOfJoining": "1/Dec/2022",
+      "dateOfResign": "15/july/2024",
+      "profile": "Frontend Developer",
+      "jobType": "Full Time",
+      "years": 1.8,
+      "companyUrl": "https://referloan.in/"
+    },
+    {
+      "id":3,
+      "companyName": "Himflax Information",
+      "dateOfJoining": "4/May/2022",
+      "dateOfResign": "18/Nov/2022",
+      "profile": "UI Developer",
+      "jobType": "Contract",
+      "years": 0.6,
+      "companyUrl": "https://himflax.com/"
+    },
+    {
+      "id": 2,
+      "companyName": "Vdesks solution",
+      "dateOfJoining": "19/Dec/2019",
+      "dateOfResign": "20/may/2022",
+      "profile": "UI Developer",
+      "jobType": "Full Time",
+      "years": 2.11,
+      "companyUrl": "https://vdesks.com/"
+    }
+  ]
+}

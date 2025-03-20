@@ -1,0 +1,45 @@
+{
+    "services": [
+      {
+        "name": "Website Development",
+        "description": "Build custom websites and admin panels using modern technologies like ReactJS, NextJS, or converting designs like Figma and PSD into responsive websites.",
+        "icon": "PiBookOpenUserDuotone"
+      },
+      {
+        "name": "User Interface (UI) Design",
+        "description": "Design user-friendly and visually appealing interfaces that enhance user experience while aligning with the brand's identity.",
+        "icon": "PiPaintBucketDuotone"
+      },
+      {
+        "name": "Website Consultancy & Technical Advice",
+        "description": "Provide expert advice on frontend technologies, best practices, and strategies to help clients make informed decisions about their projects.",
+        "icon": "RiCustomerService2Line"
+      },
+      {
+        "name": "Responsive Web Design & Optimization",
+        "description": "Ensure websites are fully responsive, providing a seamless experience across devices with improved performance and SEO.",
+        "icon": "PiDeviceMobileDuotone"
+      },
+      {
+        "name": "Website Maintenance and Support",
+        "description": "Offer ongoing website maintenance and support services to ensure sites are secure, updated, and functioning smoothly.",
+        "icon": "MdOutlineSupportAgent"
+      },
+      {
+        "name": "Web Performance Optimization",
+        "description": "Optimize websites by improving loading speeds, minimizing assets, and implementing lazy loading for a better user experience and SEO.",
+        "icon": "GiFireZone"
+      },
+      {
+        "name": "Cross-Browser Compatibility",
+        "description": "Make sure websites are fully compatible and functional across all major web browsers, adhering to industry standards.",
+        "icon": "SiFirefoxbrowser"
+      },
+      {
+        "name": "Accessibility Implementation",
+        "description": "Implement accessibility features to ensure websites are usable by all, including individuals with disabilities, following WCAG guidelines.",
+        "icon": "LiaAccessibleIcon"
+      }
+    ]
+  }
+  

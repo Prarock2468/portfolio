@@ -1,0 +1,98 @@
+.aboutWrapper {
+  padding-bottom: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  .aboutTitle {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 600;
+    color: var(--text);
+  }
+}
+.aboutSubtitle {
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 300;
+  color: var(--textOp);
+  margin: 20px 0 0;
+  text-align: center;
+}
+.aboutsecondtitle {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 400;
+  color: var(--text);
+  text-align: center;
+}
+.AboutImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  // padding: 10px;
+  margin-bottom: 50px;
+  img {
+    border-radius: 20px;
+  }
+}
+
+// page grid
+
+.pageGrid {
+  display: grid;
+  grid-template-areas:
+    "expe expe years years"
+    "expe expe project client";
+  gap: 20px;
+  grid-template-columns: 200px 200px 1fr 1fr;
+}
+.pageCol {
+  border-radius: 12px;
+}
+.pageExp {
+  grid-area: expe;
+}
+.pageyears {
+  grid-area: years;
+}
+.pageproejct {
+  grid-area: project;
+}
+.pageclient {
+  grid-area: client;
+}
+.pagecalpadding {
+  padding: 30px;
+  position: relative;
+}
+.counterNumber {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  grid-area: 2px;
+  color: var(--text);
+}
+.pageColTitleyears {
+  color: var(--textOp);
+}
+.pageColTitle,.pageColTitleyears {
+  font-size: 30px;
+  color: var(--textOp);
+  font-weight: 600;
+}
+.yrsContant {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+.yearText {
+  font-size: 13px;
+  line-height: 18px;
+  color:var(--textOp);
+}

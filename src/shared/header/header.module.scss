@@ -1,0 +1,275 @@
+.headerWrapper {
+  max-width: max-content;
+  padding: 7px;
+  backdrop-filter: blur(63px);
+  background-image: radial-gradient(
+    146.13% 118.42% at 50% -15.5%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  position: relative;
+  z-index: 1200;
+  border-radius: 50px;
+  overflow: hidden;
+  @media screen and (max-width: 767px) {
+    max-width: 576px;
+    width: 90%;
+    overflow: inherit;
+  }
+
+  &__inWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgba(20, 20, 22, 0.9);
+    border-radius: 36px;
+    box-shadow: rgba(255, 255, 255, 0.024) 0px 0.362176px 0.651917px -1px inset,
+      rgba(255, 255, 255, 0.035) 0px 3px 5.4px -2px inset;
+    opacity: 1;
+    @media screen and (max-width: 767px) {
+      justify-content: space-between;
+    }
+    @media screen and (max-width: 567px) {
+      gap: 5px;
+    }
+  }
+  &__Menu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-right: 1px solid #dddddd1c;
+    padding-right: 10px;
+    transition: 0.3s all;
+    @media screen and (max-width: 767px) {
+      position: absolute;
+      flex-direction: column;
+      background: radial-gradient(
+        146.13% 118.42% at 50% -15.5%,
+        rgb(35 28 28 / 77%) 0%,
+        rgb(49 51 52) 100%
+      );
+      top: 79%;
+      padding: 27px;
+      opacity: 0;
+      visibility: hidden;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      z-index: 9999;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 89%;
+      box-shadow: rgb(255 255 255 / 0%) 0px 0.362176px 0.651917px -1px inset,
+        rgba(255, 255, 255, 0.035) 0px 3px 5.4px -2px inset;
+      &.openMenu {
+        opacity: 1;
+        top: 91%;
+        visibility: visible;
+      }
+      &::after {
+        content: "";
+        width: 97%;
+        height: 97%;
+        position: absolute;
+        background-color: rgb(20, 20, 22);
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0%;
+        box-shadow: rgba(255, 255, 255, 0.024) 0px 0.362176px 0.651917px -1px inset,
+          rgba(255, 255, 255, 0.035) 0px 3px 5.4px -2px inset;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        z-index: -1;
+      }
+    }
+    @media screen and (max-width: 567px) {
+      padding-right: 5px;
+      border-right: 0px solid #dddddd1c;
+    }
+  }
+
+  &__menuLink {
+    height: 40px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.06) 0px 0.362176px 0.507046px -0.75px inset,
+      rgba(255, 255, 255, 0.118) 0px 3px 4.2px -1.5px inset;
+    opacity: 1;
+    gap: 9px;
+    font-size: 20px;
+    overflow: hidden;
+    color: var(--text);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #dddddd30;
+    transition: 0.3s;
+    padding: 0 18px;
+    @media screen and (max-width: 767px) {
+      justify-content: start;
+    }
+    span {
+      font-size: 14px;
+    }
+    svg {
+      color: var(--textOp);
+    }
+    &:hover,
+    &.menuActive {
+      background: radial-gradient(
+          50% 50% at 50% 50%,
+          rgba(255, 255, 255, 0.04) 0%,
+          rgba(255, 255, 255, 0.04) 100%
+        )
+        rgba(255, 255, 255, 0.04);
+    }
+  }
+  &__logo {
+    a {
+      box-shadow: none;
+    }
+  }
+  &__button {
+    background: linear-gradient(90deg, #fffa00 0%, #ffb800 100%, #ff8c01 100%);
+    border-radius: 43.27px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0.5px 1.5px inset;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    justify-content: center;
+    height: 40px;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 767px) {
+    &__menuList {
+      width: 100%;
+      max-width: 158px;
+    }
+  }
+}
+.header {
+  position: sticky;
+  top: 0;
+  height: 150px;
+  width: 100%;
+  z-index: 1200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 992px) {
+    height: 100px;
+  }
+}
+.hdWrapper {
+  background-color: transparent;
+  background-image: radial-gradient(
+    circle,
+    rgba(15, 17, 2, 0) 2px,
+    rgba(15, 17, 2, 0.64) 2px,
+    rgba(255, 255, 255, 0.388) 100%
+  );
+  background-size: 4px 4px;
+  -webkit-backdrop-filter: blur(3px); /* Safari */
+  backdrop-filter: blur(3px);
+
+  /* Vendor prefix for mask */
+  -webkit-mask: linear-gradient(rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%);
+  mask: linear-gradient(rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%);
+
+  opacity: 1;
+  position: absolute;
+  z-index: 12;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.saybtn {
+  height: 42px;
+}
+.rightHeader {
+  gap: 20px;
+  @media screen and (max-width: 767px) {
+    gap: 10px;
+  }
+}
+
+// humburgur css
+.headerMenuToggler {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  box-shadow: rgba(255, 255, 255, 0.06) 0px 0.362176px 0.507046px -0.75px inset,
+    rgba(255, 255, 255, 0.118) 0px 3px 4.2px -1.5px inset;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-image: url("../../../public/img/dot.png"),
+    radial-gradient(
+      146.13% 118.42% at 50% -15.5%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.16) 100%
+    );
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: none;
+  @media screen and (max-width: 767px) {
+    display: flex;
+  }
+}
+.hamburger {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: inherit;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &_line {
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 3px;
+    border-radius: 5px;
+    background: currentColor;
+    transition: inherit;
+
+    &:nth-child(1) {
+      top: 0px;
+      .hamburger.is_active &,
+      .w-nav-button.w--open & {
+        top: 50%;
+        transform: translateY(-50%) rotateZ(-135deg);
+      }
+    }
+
+    &:nth-child(2) {
+      top: 8px;
+
+      .hamburger.is_active &,
+      .w-nav-button.w--open & {
+        right: 50%;
+        width: 0;
+      }
+    }
+
+    &:nth-child(3) {
+      top: 16px;
+
+      .hamburger.is_active &,
+      .w-nav-button.w--open & {
+        top: 50%;
+        width: 20px;
+        transform: translateY(-50%) rotateZ(135deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+.testiContainer {
+  padding: 25px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 515px 1fr;
+  gap: 50px;
+  margin-bottom: 20px;
+  align-items: center;
+  position: relative;
+
+  @media screen and (max-width: 1080px) {
+    gap: 25px;
+    grid-template-columns: 50% 50%;
+  }
+  @media screen and (max-width: 992px) {
+    gap: 25px;
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
+.testiContainerLeft {
+  width: 100%;
+}
+.reviewCard {
+  padding: 1px;
+  border-radius: 15px;
+  position: relative;
+  background-image: linear-gradient(
+    180deg,
+    #262626 0%,
+    rgba(38, 38, 38, 0) 100%
+  );
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s all;
+  .reviewCardContent {
+    padding: 15px 20px;
+    border-radius: 15px;
+    background: rgb(24, 24, 24);
+    @media screen and (max-width: 767px) {
+      padding: 10px;
+    }
+    p,
+    span {
+      font-size: 12px;
+      color: var(--textOp);
+      line-height: 18px;
+    }
+    .description {
+      margin: 15px 0 0;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      line-clamp: 5;
+      -webkit-box-orient: vertical;
+    }
+    .detail {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      margin: 5px 0;
+      p {
+        border-left: 2px solid var(--textOp);
+        padding-left: 8px;
+        line-height: 12px;
+        &:nth-child(1) {
+          border: 0;
+          padding-left: 0px;
+        }
+      }
+    }
+  }
+  .testimonialTitle {
+    span {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 600;
+      color: var(--textOp);
+    }
+  }
+}
+
+.reviewCounter {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-image: linear-gradient(
+    180deg,
+    #262626 0%,
+    rgba(38, 38, 38, 0) 100%
+  );
+  padding: 1px;
+  border-radius: 3px;
+  overflow: hidden;
+  max-width: 450px;
+  width: auto;
+  box-shadow: 1px 1px 2px #ffae39, -1px -1px 2px #fb0000;
+  @media screen and (max-width: 992px) {
+    position: unset;
+    width: 100%;
+    margin: 20px auto auto auto;
+    max-width: 100%;
+  }
+  .reviewCounterin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    background-color: #0f1115;
+    color: var(--textOp);
+    .counterCard {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .conutertitle {
+        font-size: 15px;
+        line-height: 20px;
+        color: var(--textOp);
+        @media screen and (max-width: 576px) {
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+      .contNumber {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 700;
+        gap: 3px;
+        @media screen and (max-width: 576px) {
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+  }
+}

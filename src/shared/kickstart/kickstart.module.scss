@@ -1,0 +1,51 @@
+.kickContainer {
+  padding: 50px 25px;
+  box-shadow: inset 0 0.3621759215px 0.6519166586px -1px rgba(255, 255, 255, 0.031372549),
+    inset 0 3px 5.4px -2px rgba(255, 255, 255, 0.0352941176);
+  background-color: rgba(255, 255, 255, 0.0196078431);
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  gap: 60px;
+  margin-bottom: 20px;
+  @media screen and (max-width: 992px) {
+    grid-template-columns: 350px 1fr;
+    gap: 25px;
+    align-items: center;
+  }
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 100%;
+    gap: 25px;
+    align-items: center;
+    padding: 25px;
+  }
+}
+.kickContainerLeft {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.kickTitle {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 600;
+  color: var(--text);
+  @media screen and (max-width: 992px) {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+.kickText {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: var(--textOp);
+  margin: 26px 0;
+  span {
+    color: var(--text);
+  }
+  @media screen and (max-width: 992px) {
+    margin: 18px 0;
+  }
+}

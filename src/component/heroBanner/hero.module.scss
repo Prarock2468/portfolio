@@ -1,0 +1,225 @@
+.HeroBanner {
+  max-height: 550px;
+  @media screen and (max-width: 767px) {
+    max-height: max-content;
+    padding-bottom: 50px;
+  }
+}
+.heroContent {
+  position: relative;
+  padding: 60px 0 120px;
+  display: grid;
+  grid-template-columns: 1fr 400px; /* Creates two equal-width columns */
+  gap: 50px;
+  align-items: center;
+  color: var(--text);
+  @media screen and (max-width: 992px) {
+    gap: 25px;
+  }
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    padding: 0px;
+  }
+
+  &__Herotitle {
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 17px 0 29px 0;
+    color: var(--text);
+    @media screen and (max-width: 992px) {
+      font-size: 25px;
+      line-height: 35px;
+    }
+  }
+  &__subtitle {
+    font-size: 15px;
+    color: var(--textOp);
+  }
+  &__rightContent {
+    height: 230px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .imageContainer {
+      height: 100px;
+      width: 100px;
+    }
+  }
+  &__right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    @media screen and (max-width: 767px) {
+      justify-content: center;
+    }
+  }
+}
+
+.div {
+  height: auto;
+  max-width: max-content;
+  text-align: center;
+  padding: 4px 5px;
+  position: absolute;
+  backdrop-filter: blur(63px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  font-size: 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.0901960784);
+  background-image: radial-gradient(
+    146.13% 118.42% at 50% -15.5%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  gap: 3px;
+  color: var(--textOp);
+  background-repeat: no-repeat;
+  background-position: right;
+  svg {
+    font-size: 20px;
+  }
+  color: var(--textOp);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.div1 {
+  top: 3px;
+  left: 48%;
+}
+.div2 {
+  top: 33%;
+  right: 0%;
+  @media screen and (max-width: 576px) {
+    right: 7%;
+  }
+}
+.div3 {
+  bottom: 0;
+  left: 17%;
+}
+.div4 {
+  left: 0%;
+  top: 52%;
+}
+
+.centerImage {
+  filter: grayscale(1);
+}
+
+.cursorMouse {
+  color: yellow;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.cursorMove {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 10px !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  @media screen and (max-width: 576px) {
+    top: 13px;
+    left: -30px;
+  }
+  p {
+    padding: 7px 10px;
+  }
+}
+
+.character {
+  display: inline-block;
+}
+
+.icondiv {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.0901960784);
+  background-image: radial-gradient(
+    146.13% 118.42% at 50% -15.5%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--textOp);
+}
+.div5 {
+  top: 13%;
+  left: 21%;
+}
+.div6 {
+  bottom: 10%;
+  right: 21%;
+}
+.BannerBtnWrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.whatsbtn {
+  border: 3px solid #ff9a00;
+  border-radius: 24px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatsbtnp {
+  margin: 0;
+  padding: 6px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  background: linear-gradient(90deg, #fff801 0%, #ff8c01 100%);
+  border-radius: 20px;
+  border: 2px solid #f6cd08;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s all;
+  box-shadow: inset 0px 0px 21px #f64108, 0px 0px 21px #f64108;
+  svg {
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;
+  }
+}
+.whatsbtn:hover {
+  .whatsbtnp {
+    background: #fff;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

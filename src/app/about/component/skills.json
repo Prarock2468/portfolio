@@ -1,0 +1,19 @@
+{
+  "tech": [
+    { "techName": "html", "rating": 98, "experience": 5 },
+    { "techName": "css", "rating": 90, "experience": 5 },
+    { "techName": "javascript", "rating": 70, "experience": 4 },
+    { "techName": "jquery", "rating": 70, "experience": 4 },
+    { "techName": "bootstra ", "rating":86, "experience": 5 },
+    { "techName": "tailwind", "rating": 70, "experience": 3 },
+    { "techName": "material UI", "rating": 60, "experience": 3 },
+    { "techName": "react", "rating": 60, "experience": 3 },
+    { "techName": "nextJS", "rating": 55, "experience": 3 },
+    { "techName": "Jade", "rating": 45, "experience": 1 },
+    { "techName": "wordpress", "rating": 50, "experience": 2 },
+    { "techName": "psd To HTML5", "rating": 98, "experience": 5 },
+    { "techName": "figma To HTML5", "rating": 98, "experience": 5 },
+    { "techName": "photoShop", "rating": 80, "experience": 4 },
+    { "techName": "redux", "rating": 55, "experience": 2 }
+  ]
+}
