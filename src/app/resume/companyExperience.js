@@ -148,7 +148,6 @@ const CompanyExperience = () => {
           "https://pms.recru.in",
           "https://coinbuck.com",
           "https://tdx.biz",
-          "https://bizthonpbw.com",
           "https://bizthon.com",
           "https://web-xyz.bizthon.com/idea",
           "https://bizthon.com/PBW-hackathon-2025-online-XRPL-commons-track.html",
@@ -162,106 +161,108 @@ const CompanyExperience = () => {
       className={` shadow flex flex-col gap-5 items-start p-7 mb-5 rounded-[12px]`}
     >
       <h3 className={`${Styles.title} flex items-end gap-4  w-full`}>
-        <GiJourney size={40}  />{" "}
-        <span>My Journey </span>
+        <GiJourney size={40} /> <span>My Journey </span>
       </h3>
       <div className={Styles.resumeContent}>
-        {experienceData.experiences.map((experience, index) => (
-          <div key={index} className="mb-8">
-            <div className={`mb-9  ${Styles.companyHeader}`}>
-              <div
-                className={`flex justify-between items-center gap-3 px-4 py-3  ${Styles.companyHeaderIn}`}
-              >
-                <h2 className={Styles.companyName}>
-                  <Link
-                    href={experience.companyUrl}
-                    target="_blank"
-                    className={Styles.CpmLink}
-                  >
-                    {experience.company}
-                  </Link>
-                </h2>
-                <p className={Styles.duration}>{experience.duration}</p>
+        {experienceData.experiences
+          .slice()
+          .reverse()
+          .map((experience, index) => (
+            <div key={index} className="mb-8">
+              <div className={`mb-9  ${Styles.companyHeader}`}>
+                <div
+                  className={`flex justify-between items-center gap-3 px-4 py-3  ${Styles.companyHeaderIn}`}
+                >
+                  <h2 className={Styles.companyName}>
+                    <Link
+                      href={experience.companyUrl}
+                      target="_blank"
+                      className={Styles.CpmLink}
+                    >
+                      {experience.company}
+                    </Link>
+                  </h2>
+                  <p className={Styles.duration}>{experience.duration}</p>
+                </div>
+              </div>
+              <div className="relative">
+                <div className={`absolute ${Styles.divi}`}></div>
+                <div className={`flex gap-2 pt-2 pl-1 ${Styles.diviCard}`}>
+                  <div className={Styles.leftBox}>
+                    <h4
+                      className={`${Styles.SkillsName} ${Styles.dots} relative`}
+                    >
+                      Responsbility{" "}
+                    </h4>
+                  </div>
+                  <div className={Styles.rightBox}>
+                    <ul className="list-none pl-8 flex flex-col gap-2">
+                      {experience.description.map((desc, i) => (
+                        <li
+                          className={`${Styles.text_color} flex gap-4 items-start`}
+                          key={i}
+                        >
+                          <GrStarOutline size={15} className="mt-[7px] w-4" />{" "}
+                          <span
+                            className={Styles.text}
+                            style={{ width: "calc(100% - 12px)" }}
+                          >
+                            {desc}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+                <div  className={`flex gap-2 my-8 pt-2 pl-1 ${Styles.diviCard}`}>
+                  <div className={Styles.leftBox}>
+                    <h4
+                      className={`${Styles.SkillsName} ${Styles.dots} relative`}
+                    >
+                      Skills{" "}
+                    </h4>
+                  </div>
+                  <div className={Styles.rightBox}>
+                    <ul className="list-none pl-7 flex gap-x-3 flex-wrap">
+                      {experience.skills?.map((skill, index) => (
+                        <li
+                          key={index}
+                          className={`${Styles.text_color} ${Styles.skilsList} hover:text-white cursor-pointer`}
+                        >
+                          {skill}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+                <div className={`flex gap-2 pt-2 pl-1 ${Styles.diviCard}`}>
+                  <div className={Styles.leftBox}>
+                    <h4
+                      className={`${Styles.SkillsName} ${Styles.dots} relative`}
+                    >
+                      Projects{" "}
+                    </h4>
+                  </div>
+                  <div className={Styles.rightBox}>
+                    <ul className="list-none flex flex-col gap-4 pl-8">
+                      {experience.projects.map((project, i) => (
+                        <li key={i}>
+                          <a
+                            href={project}
+                            target="_blank"
+                            className={`${Styles.text_color} max-w-max flex items-center gap-2 hover:underline hover:text-white cursor-pointer`}
+                          >
+                            <GrStarOutline size={15} />{" "}
+                            <span className={Styles.text}>{project}</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="relative">
-              <div className={`absolute ${Styles.divi}`}></div>
-              <div className="flex gap-2 pt-2 pl-1">
-                <div className={Styles.leftBox}>
-                  <h4
-                    className={`${Styles.SkillsName} ${Styles.dots} relative`}
-                  >
-                    Responsbility{" "}
-                  </h4>
-                </div>
-                <div className={Styles.rightBox}>
-                  <ul className="list-none pl-8 flex flex-col gap-2">
-                    {experience.description.map((desc, i) => (
-                      <li
-                        className={`${Styles.text_color} flex gap-4 items-start`}
-                        key={i}
-                      >
-                        <GrStarOutline size={15} className="mt-[7px] w-4" />{" "}
-                        <span
-                          className={Styles.text}
-                          style={{ width: "calc(100% - 12px)" }}
-                        >
-                          {desc}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-              <div className="flex gap-2 my-8 pt-2 pl-1">
-                <div className={Styles.leftBox}>
-                  <h4
-                    className={`${Styles.SkillsName} ${Styles.dots} relative`}
-                  >
-                    Skills{" "}
-                  </h4>
-                </div>
-                <div className={Styles.rightBox}>
-                  <ul className="list-none pl-7 flex gap-x-3 flex-wrap">
-                    {experience.skills?.map((skill, index) => (
-                      <li
-                        key={index}
-                        className={`${Styles.text_color} ${Styles.skilsList} hover:text-white cursor-pointer`}
-                      >
-                        {skill}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-              <div className="flex gap-2 pt-2 pl-1">
-                <div className={Styles.leftBox}>
-                  <h4
-                    className={`${Styles.SkillsName} ${Styles.dots} relative`}
-                  >
-                    Projects{" "}
-                  </h4>
-                </div>
-                <div className={Styles.rightBox}>
-                  <ul className="list-none flex flex-col gap-4 pl-8">
-                    {experience.projects.map((project, i) => (
-                      <li key={i}>
-                        <a
-                          href={project}
-                          target="_blank"
-                          className={`${Styles.text_color} max-w-max flex items-center gap-2 hover:underline hover:text-white cursor-pointer`}
-                        >
-                          <GrStarOutline size={15} />{" "}
-                          <span className={Styles.text}>{project}</span>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
+          ))}
       </div>
     </div>
   );

@@ -35,6 +35,10 @@
     font-size: 25px;
     line-height: 35px;
   }
+  @media screen and (max-width: 576px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 .kickText {
   font-size: 12px;

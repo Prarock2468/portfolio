@@ -37,11 +37,13 @@
     padding: 15px 20px;
     border-radius: 15px;
     background: rgb(24, 24, 24);
+    min-height: 200px;
     @media screen and (max-width: 767px) {
       padding: 10px;
     }
     p,
-    span {
+    span,
+    a {
       font-size: 12px;
       color: var(--textOp);
       line-height: 18px;

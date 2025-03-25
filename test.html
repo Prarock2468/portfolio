@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        align-content: center;
+        width: 100vw;
+        height: 100vh;
+      }
+      @scope (.container) {
+        h2 {
+          color: red;
+        }
+      }
+
+      input {
+        accent-color: #999999;
+        border: 1px solid #101010;
+      }
+      input[type="text"] {
+        accent-color: red;
+      }
+      .container > div {
+        height: 50px;
+        width: 50px;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="divWrap container">
+      <div class="div"></div>
+      <h2>Pradeep Kumar</h2>
+    </div>
+
+    <input type="radio" />
+    <input type="checkbox" />
+    <input type="text" />
+  </body>
+</html>

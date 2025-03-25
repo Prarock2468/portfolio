@@ -2,7 +2,6 @@ import nodemailer from "nodemailer";
 
 export async function POST(request) {
   const { name, mobile, message } = await request.json();
-console.log(name, mobile, message , 'i am here');
   // Configure Nodemailer
   const transporter = nodemailer.createTransport({
     service: "gmail", // Use your email service

@@ -8,10 +8,40 @@
   .GridCol {
     border-radius: 12px;
     overflow: hidden;
+    position: relative;
+  }
+  .GridCol1 {
+    grid-area: expe;
+  }
+  .GridCol2 {
+    grid-area: skill;
+    padding-bottom: 77px;
+  }
+  .GridCol3 {
+    grid-area: social;
+  }
+  @media screen and (max-width: 992px) {
+    grid-template-areas:
+      "expe expe expe expe"
+      "skill skill social social";
+    grid-template-columns: auto;
+  }
+  @media screen and (max-width: 767px) {
+    grid-template-areas:
+      "expe"
+      "skill"
+      "social";
+    grid-template-columns: auto;
+  }
+  @media screen and (max-width: 576px) {
+    margin: 20px 0 20px;
   }
 }
 .shadowConainer {
   padding: 30px;
+  @media screen and (max-width:576px) {
+    padding:20px 15px;
+  }
 }
 .animTitle {
   font-size: 20px;
@@ -59,11 +89,14 @@
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 12px;
+  @media screen and (max-width:576px) {
+    padding: 20px 15px;
+  }
 }
-.techTitle{
+.techTitle {
   font-size: 13px;
   font-weight: 500;
-  letter-spacing: .7px;
+  letter-spacing: 0.7px;
 }
 .techtop {
   display: flex;
@@ -84,7 +117,7 @@
   }
 }
 .gap10 {
-  gap:35px 58px;
+  gap: 35px 58px;
   margin-top: 30px;
 }
 .progressBar {

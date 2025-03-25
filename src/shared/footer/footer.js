@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className={Styles.footer}>
         <div className="container">
           <div
-            className={`${Styles.footer__container} flex justify-between gap-5 md:gap-3 md:flex-col`}
+            className={`${Styles.footer__container} flex justify-between gap-5`}
           >
             <p className={`${Styles.copytext} flex gap-2 items-center`}>
               <span>© 2023</span>
@@ -19,7 +19,7 @@ const Footer = () => {
                 Pradeep Kumar
               </Link>
             </p>
-            <ul className="flex gap-4 items-center">
+            <ul className={`flex gap-4 items-center ${Styles.footerList}`}>
               <li className={Styles.design}>
                 Designed with{"  "}
                 <Link

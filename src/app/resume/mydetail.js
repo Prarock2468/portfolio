@@ -20,7 +20,7 @@ const Mydetail = () => {
           </p>
         </div>
 
-        <ul className="flex items-start gap-4">
+        <ul className={`flex items-start ${Styles.contactList}`}>
           <li>
             <Link
               href={"tel:+919935990927"}
@@ -37,7 +37,7 @@ const Mydetail = () => {
             <Link
               href={"mailto:prarock2468@gmail.com"}
               target="_blank"
-              className={`${Styles.Resumesocial} ${Styles.socalName} flex gap-2 items-center px-4 border-l-2 border-[#ffffff92] border-r-2`}
+              className={`${Styles.Resumesocial1} ${Styles.socalName} flex gap-2 items-center  border-l-2 border-[#ffffff92] border-r-2`}
             >
               <span className="">
                 <IoIosMailUnread size={15} />

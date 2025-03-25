@@ -23,7 +23,7 @@ const EducationResume = () => {
   };
 
   return (
-    <div>
+    <div className={Styles.educationWrapper}>
       <h2 className={`text-[#fff] ${Styles.edutitle}`}>Education </h2>
       <ul>
         {educationData.Education.map((edu, index) => (

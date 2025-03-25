@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import { Pagination, Mousewheel, Navigation, Autoplay } from "swiper/modules";
 import Heading from "../textanimation/heading";
 import Counter from "../counter/counter";
+import Link from "next/link";
 const ReviewSlider = () => {
   return (
     <div>
@@ -33,18 +34,20 @@ const ReviewSlider = () => {
                 <div className={Styles.reviewCardContent}>
                   <div className={Styles.reviewCardTop}>
                     <h4 className={Styles.testimonialTitle}>
-                      <Heading text={item.reviewerName} />
+                      <Heading text={item.name} />
                     </h4>
                     <div className={Styles.detail}>
-                      <p className={Styles.detailcontent}>{item.companyName}</p>
-                      <p className={Styles.detailcontent}>
-                        {item.reviewerDesignation}
-                      </p>
-                      {/* <p className={Styles.detailcontent}>{item.projectName}</p> */}
+                      <Link
+                        href={item.companyProfileOrWebsite}
+                        target="_blank"
+                        className={Styles.detailcontent}
+                      >
+                        {item.companyName}
+                      </Link>
+                      <p className={Styles.detailcontent}>{item.timestamp}</p>
                     </div>
-                    <p>{item.reviewDate}</p>
                   </div>
-                  <p className={Styles.description}>{item.reviewDescription}</p>
+                  <p className={Styles.description}>{item.review}</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -56,14 +59,14 @@ const ReviewSlider = () => {
           <div className={Styles.counterCard}>
             <h3 className={Styles.conutertitle}>Projects Done</h3>
             <div className={Styles.contNumber}>
-              <Counter number={70} /> 
+              <Counter number={70} />
             </div>
           </div>
           |
           <div className={Styles.counterCard}>
             <h3 className={Styles.conutertitle}>Happy Review</h3>
             <div className={Styles.contNumber}>
-              <Counter number={Data.length + 40} /> 
+              <Counter number={Data.length + 40} />
             </div>
           </div>
         </div>

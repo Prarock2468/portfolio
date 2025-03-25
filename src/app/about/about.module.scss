@@ -10,6 +10,17 @@
     line-height: 55px;
     font-weight: 600;
     color: var(--text);
+    @media screen and (max-width: 767px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    @media screen and (max-width: 576px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    padding-bottom: 20px;
   }
 }
 .aboutSubtitle {
@@ -19,6 +30,11 @@
   color: var(--textOp);
   margin: 20px 0 0;
   text-align: center;
+  @media screen and (max-width: 576px) {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0px 0 0;
+  }
 }
 .aboutsecondtitle {
   font-size: 25px;
@@ -26,6 +42,11 @@
   font-weight: 400;
   color: var(--text);
   text-align: center;
+  @media screen and (max-width: 576px) {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
 }
 .AboutImage {
   display: flex;
@@ -36,6 +57,13 @@
   margin-bottom: 50px;
   img {
     border-radius: 20px;
+  }
+  @media screen and (max-width: 576px) {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    img {
+      border-radius: 10px;
+    }
   }
 }
 
@@ -48,6 +76,20 @@
     "expe expe project client";
   gap: 20px;
   grid-template-columns: 200px 200px 1fr 1fr;
+  @media screen and (max-width: 992px) {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "years years years years"
+      "expe expe project project"
+      "expe expe client client";
+  }
+  @media screen and (max-width: 767px) {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "years years years years"
+      "expe expe expe expe"
+      "project project client client";
+  }
 }
 .pageCol {
   border-radius: 12px;
@@ -67,6 +109,9 @@
 .pagecalpadding {
   padding: 30px;
   position: relative;
+  @media screen and (max-width: 576px) {
+    padding: 20px 15px;
+  }
 }
 .counterNumber {
   font-size: 50px;
@@ -77,22 +122,33 @@
   align-items: center;
   grid-area: 2px;
   color: var(--text);
+  @media screen and (max-width: 576px) {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
 }
 .pageColTitleyears {
   color: var(--textOp);
 }
-.pageColTitle,.pageColTitleyears {
+.pageColTitle,
+.pageColTitleyears {
   font-size: 30px;
   color: var(--textOp);
   font-weight: 600;
+  @media screen and (max-width: 576px) {
+    font-size: 18px;
+  }
 }
 .yrsContant {
   display: flex;
   align-items: baseline;
   gap: 20px;
+  @media screen and (max-width: 576px) {
+    gap: 10px;
+  }
 }
 .yearText {
   font-size: 13px;
   line-height: 18px;
-  color:var(--textOp);
+  color: var(--textOp);
 }

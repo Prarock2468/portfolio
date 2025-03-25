@@ -1,8 +1,8 @@
- 
 .btnWrap {
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  align-items: center;
 }
 .projectContainer {
   padding: 50px 25px;
@@ -11,7 +11,7 @@
   background-color: #ffffff05;
   border-radius: 15px;
   @media screen and (max-width: 767px) {
-    padding: 25px;
+    padding: 25px 10px;
   }
 }
 .projectListWrapper {
@@ -37,16 +37,26 @@
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s all;
+  @media screen and (max-width:576px) {
+    border-radius: 5px;
+  }
   .projectCardIn {
     padding: 15px;
     border-radius: 10px;
     background: rgb(24 24 24);
+    @media screen and (max-width:576px) {
+      padding: 8px;
+      border-radius: 5px;
+    }
   }
   .projectImageWrapper {
     height: auto;
     width: 100%;
     overflow: hidden;
     border-radius: 10px;
+    @media screen and (max-width:576px) {
+      border-radius: 5px;
+    }
   }
   .projectImage {
     transform: scale(1);

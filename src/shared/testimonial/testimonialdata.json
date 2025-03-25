@@ -1,67 +1,47 @@
 [
-    {
-      "reviewDescription": "The UI work was impressive! The developer delivered clean and responsive designs, ensuring a seamless user experience. They worked efficiently, met tight deadlines, and paid great attention to detail. Their collaboration with the team was smooth, and the end result was exactly what we needed. I highly recommend them for any UI development project. They provided on-time delivery with no compromise on quality.",
-      "reviewerName": "John Smith",
-      "reviewDate": "2025-01-10",
-      "reviewerDesignation": "Senior Manager",
-      "companyName": "Tech Innovations Inc.",
-      "projectName": "E-commerce Dashboard"
-    },
-    {
-      "reviewDescription": "I had the pleasure of working with this UI developer on our web app project. They were quick to understand the requirements, and their design approach was user-friendly and visually appealing. Their ability to deliver the project ahead of schedule was highly appreciated. They maintained high code standards and ensured that the final product was functional across all devices.",
-      "reviewerName": "Emily Davis",
-      "reviewDate": "2024-12-15",
-      "reviewerDesignation": "Client",
-      "companyName": "Bright Solutions Ltd.",
-      "projectName": "Web Application UI"
-    },
-    {
-      "reviewDescription": "This developer is a reliable and talented UI expert. They delivered a sleek, responsive design that exceeded our expectations. Their attention to detail and user-centric design approach stood out. The project was delivered on time and without any significant bugs, making the integration process smooth. It was a great experience working with them, and I look forward to future collaborations.",
-      "reviewerName": "Michael Brown",
-      "reviewDate": "2025-02-01",
-      "reviewerDesignation": "CEO",
-      "companyName": "BrownTech Solutions",
-      "projectName": "Corporate Website Redesign"
-    },
-    {
-      "reviewDescription": "A talented and diligent UI developer, they brought creative ideas and executed them flawlessly. The user interface was intuitive, and the layout was optimized for performance and accessibility. They delivered the project on time, and their communication throughout the development process was clear and professional. I highly recommend them for any front-end development work.",
-      "reviewerName": "Sarah Wilson",
-      "reviewDate": "2024-11-28",
-      "reviewerDesignation": "Senior Developer",
-      "companyName": "Global Web Creations",
-      "projectName": "Mobile App UI"
-    },
-    {
-      "reviewDescription": "This UI developer consistently delivered high-quality work. They implemented clean, efficient code, resulting in a fast and responsive user interface. I was particularly impressed by their ability to adapt to design changes without impacting the timeline. Their professionalism and punctuality ensured we met our deadlines with ease. Their attention to detail made the final product visually stunning.",
-      "reviewerName": "Chris Johnson",
-      "reviewDate": "2024-10-22",
-      "reviewerDesignation": "Team Member",
-      "companyName": "BlueTech Enterprises",
-      "projectName": "CRM Interface"
-    },
-    {
-      "reviewDescription": "The developer did an amazing job delivering a beautiful and responsive UI for our project. Their ability to optimize the user experience while keeping the design modern was outstanding. They met every milestone on time and ensured smooth collaboration across teams. Their understanding of accessibility and mobile-first design was crucial for the project’s success.",
-      "reviewerName": "Jennifer Lee",
-      "reviewDate": "2025-01-05",
-      "reviewerDesignation": "Colleague Developer",
-      "companyName": "NextGen Softwares",
-      "projectName": "SaaS Platform UI"
-    },
-    {
-      "reviewDescription": "Working with this UI developer has been a great experience. They are quick to understand complex requirements and delivered the project without any delays. Their coding practices ensured that the final product was both scalable and maintainable. They were proactive in solving issues and consistently provided valuable insights to enhance the design. Highly recommended!",
-      "reviewerName": "David Miller",
-      "reviewDate": "2024-12-10",
-      "reviewerDesignation": "Senior Manager",
-      "companyName": "EduTech Solutions",
-      "projectName": "E-learning Portal UI"
-    },
-    {
-      "reviewDescription": "Their expertise in UI development is outstanding. They provided a clean and professional design, optimized for user engagement. The developer delivered the project on time and demonstrated excellent problem-solving skills when challenges arose. They worked well with our team, ensuring that the UI met our expectations in both functionality and aesthetics. A reliable and skilled developer!",
-      "reviewerName": "Laura Green",
-      "reviewDate": "2024-11-05",
-      "reviewerDesignation": "Client",
-      "companyName": "HealthTech Solutions",
-      "projectName": "Healthcare Portal UI"
-    }
-  ]
-  
+  {
+    "timestamp": "20/03/2025 22:53:29",
+    "name": "Shyaam",
+    "companyName": "Referloan Pvt Ltd",
+    "review": "Working with Pradeep has been an absolute pleasure! He's not only incredibly skilled in UI development, but he also brings such attention to detail and creativity to every project. His ability to transform designs into beautiful, user-friendly interfaces is impressive. Plus, he's always approachable, collaborative, and fun to work with. I’ve truly enjoyed every moment working alongside him!",
+    "linkedinProfile": "",
+    "rating": 5,
+    "companyProfileOrWebsite": "https://referloan.in/"
+  },
+  {
+    "timestamp": "20/03/2025 23:04:03",
+    "name": "Bhavna",
+    "companyName": "Navtech",
+    "review": "It was great experience working with him, understands requirement quickly. Very good control on skills and excellent work done.",
+    "linkedinProfile": "",
+    "rating": 5,
+    "companyProfileOrWebsite": "https://navtech.io/"
+  },
+  {
+    "timestamp": "20/03/2025 23:07:13",
+    "name": "Rishabh Dubey",
+    "companyName": "Referloan",
+    "review": "An excellent teammate with a strong skill set and effective leadership abilities.",
+    "linkedinProfile": "https://www.linkedin.com/in/rishabhdubey-244",
+    "rating": 5,
+    "companyProfileOrWebsite": "www.referloan.in"
+  },
+  {
+    "timestamp": "20/03/2025 23:12:31",
+    "name": "Nikhil",
+    "companyName": "Wizehire",
+    "review": "Amazing skill set and excellent work done for my project. Really appreciate all the help he has done by extending his support during weekend and working late hours to meet clients need.",
+    "linkedinProfile": "",
+    "rating": 5,
+    "companyProfileOrWebsite": "https://wizehire.com/"
+  },
+  {
+    "timestamp": "20/03/2025 23:13:16",
+    "name": "Vishal",
+    "companyName": "Vdesks Solutions Pvt Ltd",
+    "review": "Pradeep is an exceptionally skilled UI developer and a fantastic team lead. His expertise in HTML, CSS, and JavaScript, combined with his leadership qualities, make him an invaluable asset. He consistently delivers high-quality, responsive designs while guiding the team with clarity and patience. Working with him has been a rewarding experience!",
+    "linkedinProfile": "vishal.vdesks",
+    "rating": 5,
+    "companyProfileOrWebsite": "Vdesks.com"
+  }
+]

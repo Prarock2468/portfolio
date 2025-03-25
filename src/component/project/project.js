@@ -43,7 +43,7 @@ const ProjectComponent = () => {
               </div>
               <div className={Styles.projectListWrapper}>
                 {projectData.length > 0 ? (
-                  projectData.map((item, index) => {
+                  projectData.slice(0, 6).map((item, index) => {
                     return (
                       <div key={index} className={Styles.projectCard}>
                         <div className={Styles.projectCardIn}>

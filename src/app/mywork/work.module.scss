@@ -17,7 +17,33 @@
     color: var(--textOp);
   }
 }
+.myWorkWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  @media screen and (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
+.myWorkWrapperImg {
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #2f2f2fa9;
+  max-width: 100%;
+  width: 100%;
+  @media screen and (max-width: 480px) {
+    border-radius: 7px;
+  }
+  img {
+    transition: 0.3s all;
+    height: 100%;
+    width: 100%;
+  }
+}
+.myWorkWrapperContent {
+  width: 100%;
+}
 .myWorkWrapperCard {
   backdrop-filter: blur(63px);
   background-image: radial-gradient(
@@ -25,29 +51,104 @@
     rgba(255, 255, 255, 0) 0%,
     rgba(255, 255, 255, 0.16) 100%
   );
-  padding: 3px;
+  padding: 1px;
+  height: 100%;
+}
+.myWorkWrapperCard {
+  :hover {
+    .projectImage {
+      transform: scale(1.1);
+    }
+  }
 }
 .myWorkWrapperCardIn {
-  background-color: rgba(0, 0, 0, 0.574);
-  box-shadow: rgba(255, 255, 255, 0.06) 0px 0.362176px 0.507046px -0.75px inset,
-    rgba(255, 255, 255, 0.118) 0px 3px 4.2px -1.5px inset;
+  background-color: rgba(0, 0, 0, 0.658);
+  height: 100%;
+  @media screen and (max-width: 480px) {
+    padding: 10px;
+  }
 }
 .projectContentLeft {
+  margin-bottom: 10px;
+  @media screen and (max-width: 480px) {
+    max-width: 80%;
+  }
   h4 {
     color: var(--text);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     transition: 0.3s all;
+    @media screen and (max-width: 480px) {
+      font-size: 14px;
+    }
   }
   p {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--textOp);
     transition: 0.3s all;
+    @media screen and (max-width: 480px) {
+      font-size: 12px;
+    }
   }
 }
 
 .text_color {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--textOp);
   line-height: 13px;
+}
+.skilsList{
+  @media screen and (max-width: 480px) {
+    font-size: 10px;
+  }
+}
+.links{
+  @media screen and (max-width: 480px) {
+    font-size: 10px;
+  }
+}
+// banner css
+
+.projectPageBanner {
+  position: relative;
+  margin-bottom: 20px;
+  .bannerImage {
+    border-radius: 12px;
+  }
+  .projectcontainer {
+    position: relative;
+  }
+  .bannerContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    .bannertitle {
+      font-size: 75px;
+      font-weight: 700;
+      text-shadow: 6px 7px 13px #0e0d0d;
+      @media screen and (max-width: 767px) {
+        font-size: 45px;
+      }
+      @media screen and (max-width: 576px) {
+        font-size: 35px;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.projectContentRight {
+  @media screen and (max-width: 480px) {
+    ul {
+      margin-top:0px;
+    }
+  }
 }
