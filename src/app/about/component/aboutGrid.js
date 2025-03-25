@@ -38,7 +38,7 @@ const AboutGrid = () => {
                     width={220}
                     alt="Download Resume"
                   />
-                  <PageButton>
+                  <PageButton link="/resume">
                     <span>Download Resume</span>
                     <IoIosArrowRoundForward />
                   </PageButton>
