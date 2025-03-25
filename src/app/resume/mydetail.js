@@ -28,7 +28,7 @@ const Mydetail = () => {
               className={`${Styles.Resumesocial} ${Styles.socalName} flex gap-2 items-center`}
             >
               <span className="">
-                <PiPhoneCallFill size={15} />
+                <PiPhoneCallFill size={15} style={{color:'#fff'}}/>
               </span>
               <span className={Styles.text_color}>+919935990927</span>
             </Link>
@@ -40,7 +40,7 @@ const Mydetail = () => {
               className={`${Styles.Resumesocial1} ${Styles.socalName} flex gap-2 items-center  border-l-2 border-[#ffffff92] border-r-2`}
             >
               <span className="">
-                <IoIosMailUnread size={15} />
+                <IoIosMailUnread size={15} style={{color:'#fff'}}/>
               </span>
               <span className={Styles.text_color}>prarock2468@gmail.com</span>
             </Link>
@@ -52,7 +52,7 @@ const Mydetail = () => {
               className={`${Styles.Resumesocial} ${Styles.socalName} flex gap-2 items-center`}
             >
               <span className="">
-                <IoLogoLinkedin size={15} />
+                <IoLogoLinkedin size={15} style={{color:'#fff'}} />
               </span>
               <span className={Styles.text_color}>Linkedin</span>
             </Link>

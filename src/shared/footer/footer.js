@@ -10,7 +10,7 @@ const Footer = () => {
             className={`${Styles.footer__container} flex justify-between gap-5`}
           >
             <p className={`${Styles.copytext} flex gap-2 items-center`}>
-              <span>© 2023</span>
+              <span style={{color:'#fff'}}>© 2025</span>
               {"   "}
               <Link
                 href={"#"}
