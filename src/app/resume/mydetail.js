@@ -47,7 +47,7 @@ const Mydetail = () => {
           </li>
           <li>
             <Link
-              href={"www.linkedin.com/in/prarock246"}
+              href="www.linkedin.com/in/prarock246"
               target="_blank"
               className={`${Styles.Resumesocial} ${Styles.socalName} flex gap-2 items-center`}
             >

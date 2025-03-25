@@ -28,7 +28,7 @@ const Social = () => {
         </h2>
         <ul className={Styles.socialList}>
           <li className={Styles.listSo}>
-            <Link href={"www.linkedin.com/in/prarock2468"} target="__blank">
+            <Link href="www.linkedin.com/in/prarock2468" target="__blank">
               {" "}
               <FaLinkedin /> <span>LinkedIn</span>
             </Link>
