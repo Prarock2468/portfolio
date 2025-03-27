@@ -1,59 +1,64 @@
-'use client'
+"use client";
+import { useEffect, useState } from "react";
+import Styles from "./progress.module.scss";
+import { MdKeyboardArrowUp } from "react-icons/md";
 
-import { motion, useMotionValue, useSpring } from "framer-motion";
-import { useEffect, useRef } from "react";
+const ProgressBar = () => {
+  const [scrollProgress, setScrollProgress] = useState(0);
+  const [isScrolled, setIsScrolled] = useState(false);
 
-const DragComponent = () => {
-    const ref = useRef(null);
-    const { x, y } = useFollowPointer(ref);
-    return (
-        <motion.div
-            ref={ref}
-            style={{ ...ball, x, y }}
-            className="follow-pointer"
-        />
-    );
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPosition = window.scrollY;
+
+      // Calculate scroll progress as a percentage
+      const progress = (scrollPosition / scrollHeight) * 100;
+      setScrollProgress(progress);
+
+      // Toggle class based on scroll position
+      setIsScrolled(scrollPosition >= 100);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Function to scroll to the top
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Smooth scroll animation
+    });
+  };
+
+  return (
+    <div
+      className={`${Styles.scrlTop} ${isScrolled ? Styles.active : ""}`}
+      onClick={scrollToTop} // Scroll to top on click
+    >
+      <MdKeyboardArrowUp className={Styles.arrowTop} />
+      <div
+        className={Styles.progressBar}
+        style={{ transform: `scaleX(${scrollProgress / 100})` }} // Smooth width animation
+      ></div>
+
+      {/* Waves adjust based on progress */}
+      <div
+        className={Styles.wave_01}
+        style={{ top: `${50 - scrollProgress * 0.3}%` }}
+      ></div>
+      <div
+        className={Styles.wave_02}
+        style={{ top: `${55 - scrollProgress * 0.25}%` }}
+      ></div>
+      <div
+        className={Styles.wave_03}
+        style={{ top: `${60 - scrollProgress * 0.2}%` }}
+      ></div>
+    </div>
+  );
 };
 
-const spring = { damping: 20, stiffness: 300 };
-
-const useFollowPointer = (ref) => {
-    const xPoint = useMotionValue(0);
-    const yPoint = useMotionValue(0);
-    const x = useSpring(xPoint, spring);
-    const y = useSpring(yPoint, spring);
-
-    useEffect(() => {
-        if (!ref.current) return;
-
-        const handlePointerMove = ({ clientX, clientY }) => {
-            const element = ref.current;
-
-            // Center the ball around the mouse pointer
-            xPoint.set(clientX - element.offsetWidth / 2);
-            yPoint.set(clientY - element.offsetHeight / 2);
-        };
-
-        window.addEventListener("pointermove", handlePointerMove);
-
-        return () => window.removeEventListener("pointermove", handlePointerMove);
-    }, []);
-
-    return { x, y };
-};
-
-/**
- * ==============   Styles   ================
- */
-
-const ball = {
-    width: 100,
-    height: 100,
-    backgroundColor: "#ff0088",
-    borderRadius: "50%",
-    position: "fixed",  // Ensures it can move across the entire page
-    zIndex: 9999,       // Top-most layer
-    pointerEvents: "none", // Ensures it doesn’t interfere with other elements
-};
-
-export { DragComponent, useFollowPointer };
+export default ProgressBar;

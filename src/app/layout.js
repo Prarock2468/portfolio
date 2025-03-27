@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "@/shared/header/header";
 import Footer from "@/shared/footer/footer";
 import { Barlow } from "next/font/google";
+import ProgressBar from "@/shared/progress/progressBar";
 
 const barlow = Barlow({
   subsets: ["latin"],
@@ -15,11 +16,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`antialiased ${barlow.className}`}>
-        <div className="bgbody"></div>
+      <body className={` ${barlow.className}`}>
         <Header />
         {children}
         <Footer />
+        <ProgressBar/>
       </body>
     </html>
   );
