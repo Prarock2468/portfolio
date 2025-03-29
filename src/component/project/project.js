@@ -48,13 +48,16 @@ const ProjectComponent = () => {
                       <div key={index} className={Styles.projectCard}>
                         <div className={Styles.projectCardIn}>
                           <div className={Styles.projectImageWrapper}>
-                            <Image
-                              src={`/img/referloan/${item.thumbnail}`}
-                              alt={`${item.projectName} Thumbnail`}
-                              height={167}
-                              width={400}
-                              className={Styles.projectImage}
-                            />
+                            <Link href={item.liveUrl}
+                              target="__blank">
+                              <Image
+                                src={`/img/referloan/${item.thumbnail}`}
+                                alt={`${item.projectName} Thumbnail`}
+                                height={167}
+                                width={400}
+                                className={Styles.projectImage}
+                              />
+                            </Link>
                           </div>
                           <div className={Styles.projectContent}>
                             <div className={Styles.projectContentLeft}>

@@ -21,7 +21,13 @@
     "liveUrl": "https://wizehire.com/",
     "thumbnail": "wizehire.png",
     "banner": "healthcare_dashboard_banner.jpg",
-    "skills": ["html", "css", "JavaScript", "Bootstrap", "WordPress"]
+    "skills": [
+      "html",
+      "css",
+      "JavaScript",
+      "Bootstrap",
+      "WordPress"
+    ]
   },
   {
     "projectId": "P003",
@@ -43,14 +49,26 @@
     "projectName": "tradeDog group Infrastructure",
     "liveUrl": "https://tde.fi/",
     "thumbnail": "tdfi.png",
-    "skills": ["html", "css", "JavaScript", "Figma to Html", "Bootstrap"]
+    "skills": [
+      "html",
+      "css",
+      "JavaScript",
+      "Figma to Html",
+      "Bootstrap"
+    ]
   },
   {
     "projectId": "P005",
     "projectName": "Sargam Restaurant & Bar",
     "liveUrl": "https://www.sargamrestaurant.com",
     "thumbnail": "sargam.webp",
-    "skills": ["html", "css", "JavaScript", "PHP", "Bootstrap"]
+    "skills": [
+      "html",
+      "css",
+      "JavaScript",
+      "PHP",
+      "Bootstrap"
+    ]
   },
   {
     "projectId": "P006",
@@ -91,36 +109,68 @@
     "startDate": "2021-06-01",
     "endDate": "2021-10-30",
     "thumbnail": "royal.webp",
-    "skills": ["html", "css", "JavaScript", "jQuery", "Bootstrap", "PHP"]
+    "skills": [
+      "html",
+      "css",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "PHP"
+    ]
   },
   {
     "projectId": "P009",
     "projectName": "Health, Fitness and Nutrition",
     "liveUrl": "http://patientsoul.com/",
     "thumbnail": "patient.webp",
-    "skills": ["html", "css", "JavaScript", "jQuery", "Bootstrap", "Sitefinity"]
+    "skills": [
+      "html",
+      "css",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "Sitefinity"
+    ]
   },
   {
     "projectId": "P010",
     "projectName": "Project Management Software",
     "liveUrl": "https://pms.recru.in/",
     "thumbnail": "pms.webp",
-    "skills": ["html", "css", "JavaScript", "NextJs", "React", "Bootstrap"]
+    "skills": [
+      "html",
+      "css",
+      "JavaScript",
+      "NextJs",
+      "React",
+      "Bootstrap"
+    ]
   },
-
   {
     "projectId": "P011",
     "projectName": "Bizthon A Business Idea's",
     "liveUrl": "https://bizthon.com/",
     "thumbnail": "bozthon.png",
-    "skills": ["html", "css", "JavaScript", "PHP", "Bootstrap"]
+    "skills": [
+      "html",
+      "css",
+      "JavaScript",
+      "PHP",
+      "Bootstrap"
+    ]
   },
   {
     "projectId": "P012",
     "projectName": "Cray Valley",
     "liveUrl": "https://www.crayvalley.com",
     "thumbnail": "creyvally.webp",
-    "skills": ["html", "css", "JavaScript", "Sitefinity", "Bootstrap"]
+    "skills": [
+      "html",
+      "css",
+      "JavaScript",
+      "Sitefinity",
+      "Bootstrap"
+    ]
   },
   {
     "projectId": "P013",
@@ -152,14 +202,20 @@
       "PhotoShop"
     ]
   },
-
   {
     "projectId": "P015",
     "projectName": "Franchiese log in page",
     "liveUrl": "https://partners.referloan.in/",
-    "thumbnail": "partnerpage.png",
+    "thumbnail": "partner.webp",
     "banner": "learning_platform_banner.jpg",
-    "skills": ["html", "css", "JavaScript", "NodeJs", "ExpressJs", "Bootstrap"]
+    "skills": [
+      "html",
+      "css",
+      "JavaScript",
+      "NodeJs",
+      "ExpressJs",
+      "Bootstrap"
+    ]
   },
   {
     "projectId": "P016",
@@ -181,6 +237,13 @@
     "projectName": "Global Operational Hubs",
     "liveUrl": "https://www.asyad.om/",
     "thumbnail": "asyad.png",
-    "skills": ["html", "css", "JavaScript", "jQuery", "Sitefinity", "Bootstrap"]
+    "skills": [
+      "html",
+      "css",
+      "JavaScript",
+      "jQuery",
+      "Sitefinity",
+      "Bootstrap"
+    ]
   }
 ]

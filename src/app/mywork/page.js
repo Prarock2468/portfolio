@@ -10,11 +10,11 @@ import WrapAnimayion from "@/shared/wrapAnimayion/wrapAnimayion";
 import { PiShareFatDuotone } from "react-icons/pi";
 import ProjectBanner from "./banner";
 const Work = () => {
-  
+
   return (
     <>
       <ProjectBanner />
-      <div className="container mt-5" style={{marginBottom:'40px !important'}}>
+      <div className="container mt-5" style={{ marginBottom: '40px !important' }}>
         <div className={`${Styles.myWorkWrapper}`}>
           {projectData.length > 0 ? (
             projectData.map((item, index) => {
@@ -25,6 +25,12 @@ const Work = () => {
                       className={`${Styles.myWorkWrapperCardIn} flex flex-col gap-5 items-start p-5 rounded-lg `}
                     >
                       <div className={Styles.myWorkWrapperImg}>
+                        <Link
+                          href={item.liveUrl}
+                          target="__blank"
+                        >
+
+                        </Link>
                         <Image
                           src={`/img/referloan/${item.thumbnail}`}
                           alt={`${item.projectName} Thumbnail`}
