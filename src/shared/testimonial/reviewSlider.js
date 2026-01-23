@@ -59,14 +59,14 @@ const ReviewSlider = () => {
           <div className={Styles.counterCard}>
             <h3 className={Styles.conutertitle}>Projects Done</h3>
             <div className={Styles.contNumber}>
-              <Counter number={70} />
+              <Counter number={100} />
             </div>
           </div>
           |
           <div className={Styles.counterCard}>
             <h3 className={Styles.conutertitle}>Happy Review</h3>
             <div className={Styles.contNumber}>
-              <Counter number={Data.length + 40} />
+              <Counter number={Data.length + 50} />
             </div>
           </div>
         </div>

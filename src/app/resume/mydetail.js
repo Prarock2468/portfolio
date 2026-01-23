@@ -42,7 +42,7 @@ const Mydetail = () => {
               <span className="">
                 <IoIosMailUnread size={15} style={{color:'#fff'}}/>
               </span>
-              <span className={Styles.text_color}>prarock2468@gmail.com</span>
+              <span className={Styles.text_color}>frontend2917@gmail.com</span>
             </Link>
           </li>
           <li>
@@ -59,7 +59,7 @@ const Mydetail = () => {
           </li>
         </ul>
         <p className={` ${Styles.text_color} ${Styles.font25}`}>
-          {`( 5.6 Years Of Experience  )`}
+          {`( 6.9 Years Of Experience  )`}
         </p>
       </div>
     </div>

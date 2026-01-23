@@ -15,7 +15,7 @@ const Aboutme = () => {
           <div className={` ${Styles.pagecalpadding}`}>
             <div className={Styles.yrsContant}>
               <h2 className={Styles.counterNumber}>
-                <Counter number={5} /> +
+                <Counter number={6} /> +
               </h2>
               <h4 className={Styles.pageColTitleyears}>Years of experience</h4>
             </div>
@@ -30,7 +30,7 @@ const Aboutme = () => {
         <div className={`shadow ${Styles.pageproejct} ${Styles.pageCol}`}>
           <div className={`${Styles.pagecalpadding}`}>
             <h2 className={Styles.counterNumber}>
-              <Counter number={70} /> +
+              <Counter number={100} /> +
             </h2>
             <h4 className={Styles.pageColTitle}>Projects Done</h4>
           </div>

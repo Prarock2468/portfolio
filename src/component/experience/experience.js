@@ -16,7 +16,7 @@ const Experience = () => {
         totalExperience += item.years;
       }
     });
-    setExperience(totalExperience);
+    setExperience(parseFloat(totalExperience.toFixed(2)));
   }, [Data.experience]);
   return (
     <div className={Styles.experienceWrap}>
@@ -99,7 +99,7 @@ const Experience = () => {
                 <span
                     className={`${Styles.designation__designName} ${Styles.experienceWrap__fade}`}
                   >
-                    {item.years} Years
+                    {typeof item.years === "number" ? parseFloat(item.years.toFixed(2)) : item.years} Years
                   </span> 
               </div>
             </motion.div>

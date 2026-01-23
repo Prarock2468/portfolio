@@ -36,7 +36,13 @@ const Social = () => {
           <li className={Styles.listSo}>
             <Link href={"mailto:frontend2917@gmail.com"} target="__blank">
               {" "}
-              <IoIosMailOpen /> <span>Mail</span>
+              <IoIosMailOpen /> <span> Primary Mail</span>
+            </Link>
+          </li>
+          <li className={Styles.listSo}>
+            <Link href={"mailto:prarock2468@gmail.com"} target="__blank">
+              {" "}
+              <IoIosMailOpen /> <span>Secondary Mail</span>
             </Link>
           </li>
           <li className={Styles.listSo}>
@@ -57,7 +63,7 @@ const Social = () => {
               <IoLogoWhatsapp /> <span>Whatsapp</span>
             </Link>
           </li>
-          <li className={Styles.listSo}>
+          {/* <li className={Styles.listSo}>
             <Link
               href={"https://join.skype.com/invite/twGLGEOE0o5W"}
               target="__blank"
@@ -65,7 +71,7 @@ const Social = () => {
               {" "}
               <FaSkype /> <span>Join me on Skype</span>
             </Link>
-          </li>
+          </li> */}
         </ul>
         <div className={Styles.meetWraper}>
           <div className={Styles.meetWraperin}>

@@ -1,13 +1,23 @@
 {
   "experience": [
     {
-      "id": 5,
-      "companyName": "Ith Technology",
-      "dateOfJoining": "22/july/2024",
+      "id": 6,
+      "companyName": "Q3 Technologies",
+      "dateOfJoining": "01/sep/2025",
       "dateOfResign": "Working",
       "profile": "Frontend Developer",
       "jobType": "Full Time",
-      "years": 0.7,
+      "years": 0.4,
+      "companyUrl": "https://ith.tech/"
+    },
+    {
+      "id": 5,
+      "companyName": "Ith Technology",
+      "dateOfJoining": "22/july/2024",
+      "dateOfResign": "30/aug/2025",
+      "profile": "Frontend Developer",
+      "jobType": "Full Time",
+      "years": 1.11,
       "companyUrl": "https://ith.tech/"
     },
     {
@@ -17,27 +27,27 @@
       "dateOfResign": "15/july/2024",
       "profile": "Frontend Developer",
       "jobType": "Full Time",
-      "years": 1.8,
+      "years": 1.62,
       "companyUrl": "https://referloan.in/"
     },
     {
-      "id":3,
+      "id": 3,
       "companyName": "Himflax Information",
       "dateOfJoining": "4/May/2022",
       "dateOfResign": "18/Nov/2022",
       "profile": "UI Developer",
       "jobType": "Contract",
-      "years": 0.6,
+      "years": 0.54,
       "companyUrl": "https://himflax.com/"
     },
     {
       "id": 2,
       "companyName": "Vdesks solution",
-      "dateOfJoining": "19/Dec/2019",
+      "dateOfJoining": "1/Dec/2019",
       "dateOfResign": "20/may/2022",
       "profile": "UI Developer",
       "jobType": "Full Time",
-      "years": 2.11,
+      "years": 2.42,
       "companyUrl": "https://vdesks.com/"
     }
   ]
