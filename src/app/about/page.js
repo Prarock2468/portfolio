@@ -23,17 +23,33 @@ const About = () => {
               className={Styles.aboutmeImge}
             />
             <h1 className={Styles.aboutTitle}>
-              I'm Pradeep Kumar, a UI developer from Fatehpur, Uttar Pradesh,
-              with 5.5 years of experience creating seamless, responsive
-              interfaces using clean and efficient code.
+              I’m <strong> Pradeep Kumar</strong>, a{" "}
+              <strong> UI & Frontend Developer</strong> from Noida, Uttar
+              Pradesh, with <strong>6.9 years of professional</strong>  experience building
+              modern, responsive, and high-performance web applications.
             </h1>
             <p className={Styles.aboutSubtitle}>
-              As a UI developer, I specialize in building responsive,
-              user-friendly interfaces that blend aesthetics with functionality.
-              I focus on writing clean, efficient code using the latest
-              frameworks and best practices, ensuring seamless performance
-              across devices. My goal is to deliver smooth, accessible user
-              experiences with pixel-perfect precision.
+              I specialize in designing and developing{" "}
+              <strong> pixel-perfect </strong>user interfaces using{" "}
+              <strong>HTML, CSS, JavaScript, React,</strong> and{" "}
+              <strong> Next.js </strong>. I work extensively on{" "}
+              <strong> API integration </strong>, connecting frontend
+              applications with REST APIs to build dynamic, data-driven
+              experiences that are fast, scalable, and user-friendly. With a
+              strong focus on
+              <strong>
+                {" "}
+                UI consistency, accessibility, SEO optimization, and
+                performance,
+              </strong>{" "}
+              I transform design concepts into clean, maintainable code that
+              works seamlessly across devices and browsers. Whether it’s a
+              freelance project, startup product, or enterprise application, my
+              goal is to deliver{" "}
+              <strong>
+                {" "}
+                intuitive interfaces that look great and perform flawlessly.
+              </strong>
             </p>
           </div>
         </WrapAnimayion>
@@ -69,13 +85,13 @@ const About = () => {
           </div>
         </WrapAnimayion>
       </div>
-      
+
       <AboutGrid />
       <WrapAnimayion>
-        <Aboutme/>
+        <Aboutme />
       </WrapAnimayion>
-      <TechSkills/>
-      <Kickstart/>
+      <TechSkills />
+      <Kickstart />
     </>
   );
 };

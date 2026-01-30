@@ -6,12 +6,12 @@
   flex-direction: column;
   gap: 20px;
   .aboutTitle {
-    font-size: 40px;
-    line-height: 55px;
-    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 400;
     color: var(--text);
     @media screen and (max-width: 767px) {
-      font-size: 30px;
+      font-size: 25px;
       line-height: 40px;
     }
     @media screen and (max-width: 576px) {
@@ -23,6 +23,7 @@
     padding-bottom: 20px;
   }
 }
+.animTitle{color: var(--text) !important;}
 .aboutSubtitle {
   font-size: 20px;
   line-height: 31px;
@@ -30,6 +31,9 @@
   color: var(--textOp);
   margin: 20px 0 0;
   text-align: center;
+  strong {
+    color: var(--text);
+  }
   @media screen and (max-width: 576px) {
     font-size: 15px;
     line-height: 25px;

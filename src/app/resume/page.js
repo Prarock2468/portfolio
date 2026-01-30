@@ -26,8 +26,8 @@ const Resume = () => {
               </PageButton>
 
               <a
-                href="/img/resume.pdf" // Path to the resume file
-                download="resume.pdf"
+                href="/img/Pradeep_Resume.pdf" // Path to the resume file
+                download="Pradeep_Resume.pdf"
                 className={`${Styles.whatsbtn}`} // Applying custom styles
               >
                 <p className={Styles.whatsbtnp}>
